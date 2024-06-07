@@ -1,0 +1,38 @@
+/* Global styles */
+html, body {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Centering content */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling the container for the iframes */
+.container {
+    width: 100%;
+    
+    
+    max-width: 800px; /* Maximum width of the content area */
+    background-color: #ffffff; /* White background for the container */
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for a lifted card effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling iframes to be full width within the container */
+iframe {
+    width: 100%; /* Ensure iframes fill the container width */
+    height: auto; /* Auto height to maintain aspect ratio based on content, adjust as needed */
+    border: none;
+    padding: 10px;
+}
